@@ -2,16 +2,19 @@ package br.up.entities;
 
 public class User {
 	
-	private int id;
+	private int iduser;
+	
 	private String name;
 	private String login;
 	private String password;
 	
+	
+	
 	public int getId() {
-		return id;
+		return iduser;
 	}
 	public void setId(int id) {
-		this.id = id;
+		this.iduser = id;
 	}
 	public String getName() {
 		return name;
