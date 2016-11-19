@@ -4,7 +4,7 @@ public class StockOption {
 	
 	private int id;
 	private String company;
-	private String ticket_simbol;
+	private String ticker_simbol;
 	private int quantity;
 	private Double value;
 	
@@ -19,12 +19,12 @@ public class StockOption {
 		this.company = company;
 	}
 
-	public String getTicket_simbol() {
-		return ticket_simbol;
+	public String getTicker_simbol() {
+		return ticker_simbol;
 	}
 
-	public void setTicket_simbol(String ticket_simbol) {
-		this.ticket_simbol = ticket_simbol;
+	public void setTicker_simbol(String ticket_simbol) {
+		this.ticker_simbol = ticket_simbol;
 	}
 
 	public int getQuantity() {
