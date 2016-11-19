@@ -19,7 +19,7 @@ public class DataSource implements InterfaceDataSource {
 		try {
 			Class.forName(driver);
 		} catch (ClassNotFoundException e) {
-			System.out.println("Classe nï¿½o encontrada!");
+			System.out.println("Classe não encontrada!");
 			e.printStackTrace();
 		}
 	}
